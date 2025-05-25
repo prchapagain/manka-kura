@@ -1,0 +1,9 @@
+
+import React from 'react';
+
+const GlobeAltIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" {...props}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3.75h.008v.008H12v-.008zM3 16.5V12a9 9 0 0118 0v4.5M3 16.5c0 1.924 1.013 3.64 2.566 4.597M12 12A2.25 2.25 0 009.75 9.75 2.25 2.25 0 0012 7.5c1.243 0 2.25 1.007 2.25 2.25A2.25 2.25 0 0012 12zm0 0h.008v.008H12v-.008zm5.434 4.507A6.04 6.04 0 0012 10.5a6.04 6.04 0 00-5.434 1.507" />
+  </svg>
+);
+export default GlobeAltIcon;

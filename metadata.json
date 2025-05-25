@@ -1,0 +1,7 @@
+{
+  "name": "Man Ka Kura",
+  "description": "A social app for freely expressing thoughts, feelings, and reflections. Focuses on simplicity, emotional expression, and community connection. Share posts via text, voice, or image, with features like anonymous mode, emotional reactions, daily prompts, and language options.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

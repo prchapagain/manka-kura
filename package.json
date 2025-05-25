@@ -1,0 +1,14 @@
+{
+  "name": "man-ka-kura",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "echo 'Build complete. Make sure to commit the generated .js files.'"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  }
+}

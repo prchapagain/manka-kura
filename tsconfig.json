@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "declaration": false,
+    "rootDir": ".",
+    "allowJs": true
+  },
+  "include": [
+    "./index.tsx",
+    "./App.tsx",
+    "./types.ts",
+    "./constants.ts",
+    "./components/**/*.tsx",
+    "./components/**/*.ts",
+    "./contexts/**/*.tsx",
+    "./contexts/**/*.ts",
+    "./services/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "sw.js"
+  ]
+}
